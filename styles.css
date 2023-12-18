@@ -1,0 +1,123 @@
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+select, button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+select {
+    width: 150px;
+}
+
+#rulesButton {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#rulesButton:hover {
+    background-color: #fff;
+    color: #000; /* Text color when hovering */
+}
+
+#newGameButton {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#newGameButton:hover {
+    background-color: #fff;
+    color: #000; /* Text color when hovering */
+}
+#playAgainButton {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#playAgainButton:hover {
+    background-color: #fff;
+    color: #000; /* Text color when hovering */
+}
+#rules {
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#rules h2 {
+    font-size: 24px;
+}
+
+#rules p {
+    font-size: 16px;
+}
+
+#beginnerGrid{
+    max-width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#beginnerGrid img{
+    height: 50px;
+    width: 50px;
+}
+#intermediateGrid{
+    max-width: 560px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#intermediateGrid img{
+    height: 35px;
+    width: 35px;
+}
+#expertGrid{
+    max-width: 660px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#expertGrid img{
+    height: 30px;
+    width: 30px;
+}
+
